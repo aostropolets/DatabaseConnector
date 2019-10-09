@@ -211,7 +211,7 @@ connect <- function(connectionDetails = NULL,
                           oracleDriver = connectionDetails$oracleDriver,
                           connectionString = connectionDetails$connectionString,
                           pathToDriver = connectionDetails$pathToDriver,
-                          useJtds = useJtds))
+                          useJtds = useJtds)
     
     return(connection)
   }
